@@ -98,7 +98,7 @@ function App() {
   const [showResults, setShowResults] = useState(false);
   
   // AI mode state
-  const [aiProvider, setAiProvider] = useState<AIProvider>('openai');
+  const [aiProvider, setAiProvider] = useState<AIProvider>('gemini');
   const [apiKeyInput, setApiKeyInput] = useState('');
   const [showApiKey, setShowApiKey] = useState(false);
   const [messages, setMessages] = useState<Message[]>([]);
