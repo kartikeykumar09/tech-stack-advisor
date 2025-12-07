@@ -7,7 +7,8 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://typescriptlang.org)
 [![Vite](https://img.shields.io/badge/Vite-5-purple)](https://vitejs.dev)
 
-![Tech Stack Advisor Screenshot](https://via.placeholder.com/800x400/1a1a2e/10b981?text=Tech+Stack+Advisor)
+![Tech Stack Advisor Screenshot](assets/screenshot.png)
+
 
 ## ✨ Features
 
