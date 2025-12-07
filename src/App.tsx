@@ -390,15 +390,9 @@ function App() {
   return (
     <div className="container">
       <header className="header">
-        <div className="header-top-row" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '1rem', marginBottom: '1rem' }}>
-          <div className="header-badge">
-            <Lightbulb size={14} />
-            <span>Free Tool</span>
-          </div>
-          <a href="https://github.com/kartikeykumar09/tech-stack-advisor" target="_blank" rel="noreferrer" className="header-badge github-badge" style={{ textDecoration: 'none', cursor: 'pointer', background: 'rgba(255, 255, 255, 0.1)', border: '1px solid rgba(255, 255, 255, 0.2)' }}>
-            <img src="https://unpkg.com/simple-icons@v13/icons/github.svg" width="14" height="14" style={{ filter: 'invert(1)' }} alt="GitHub" />
-            <span>View Source</span>
-          </a>
+        <div className="header-badge">
+          <Lightbulb size={14} />
+          <span>Free Tool</span>
         </div>
         <h1>Tech Stack Advisor</h1>
         <p>
@@ -735,6 +729,10 @@ function App() {
           Built by <a href="https://kartikeykumar.com" target="_blank" rel="noopener noreferrer">Kartikey Kumar</a> · 
           More tools at <a href="https://kartikeykumar.com/tools" target="_blank" rel="noopener noreferrer">kartikeykumar.com/tools</a>
         </p>
+        <a href="https://github.com/kartikeykumar09/tech-stack-advisor" target="_blank" rel="noopener noreferrer" className="github-footer-link" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', marginTop: '0.5rem', color: 'var(--text-muted)', textDecoration: 'none', fontSize: '0.9rem' }}>
+          <img src="https://unpkg.com/simple-icons@v13/icons/github.svg" width="16" height="16" style={{ filter: 'invert(0.5)' }} alt="GitHub" />
+          View Source Code
+        </a>
       </footer>
     </div>
   );
