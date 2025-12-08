@@ -683,8 +683,50 @@ function App() {
                       </div>
 
                       <p className="settings-note">
-                        🔒 Your key is stored locally and only sent to server.
+                        🔒 Your key is stored locally and only sent to the AI provider.
                       </p>
+
+                      {/* Security Notice */}
+                      <div style={{
+                        padding: '0.5rem',
+                        background: 'rgba(251, 191, 36, 0.1)',
+                        border: '1px solid rgba(251, 191, 36, 0.3)',
+                        borderRadius: '0.375rem',
+                        marginTop: '0.5rem',
+                        fontSize: '0.7rem',
+                        color: 'var(--text-muted)'
+                      }}>
+                        <strong style={{ color: '#fbbf24' }}>Security:</strong>{' '}
+                        Use test keys with limited permissions. Clear data on shared computers.
+                      </div>
+
+                      {/* Clear All Data Button */}
+                      <button 
+                        onClick={() => {
+                          if (confirm('Clear all saved API keys and settings?')) {
+                            localStorage.removeItem('techstack_api_key_openai');
+                            localStorage.removeItem('techstack_api_key_gemini');
+                            localStorage.removeItem('techstack_model_openai');
+                            localStorage.removeItem('techstack_model_gemini');
+                            setApiKeyInput('');
+                            setAvailableModels(defaultModels[aiProvider]);
+                            alert('All data cleared.');
+                          }
+                        }}
+                        style={{
+                          marginTop: '0.5rem',
+                          padding: '0.4rem 0.6rem',
+                          fontSize: '0.7rem',
+                          background: 'transparent',
+                          border: '1px solid #ef4444',
+                          color: '#ef4444',
+                          borderRadius: '0.375rem',
+                          cursor: 'pointer',
+                          width: '100%'
+                        }}
+                      >
+                        🗑️ Clear All Saved Data
+                      </button>
                     </div>
                   </div>
                 )}
