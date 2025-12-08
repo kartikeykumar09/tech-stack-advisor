@@ -2,7 +2,7 @@
 
 > Get personalized technology stack recommendations for your next project — powered by AI or a smart scoring engine.
 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://kartikeykumar.com/tools/tech-stack-advisor/)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://kartikeykumar.in/tools/tech-stack-advisor/)
 [![React](https://img.shields.io/badge/React-18-blue)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://typescriptlang.org)
 [![Vite](https://img.shields.io/badge/Vite-5-purple)](https://vitejs.dev)
@@ -151,9 +151,9 @@ MIT License - feel free to use this in your own projects!
 
 ## 🙏 Acknowledgments
 
-- Built by [Kartikey Kumar](https://kartikeykumar.com)
-- Part of the [Free Developer Tools](https://kartikeykumar.com/tools) suite
+- Built by [Kartikey Kumar](https://kartikeykumar.in)
+- Part of the [Free Developer Tools](https://kartikeykumar.in/tools) suite
 
 ---
 
-**[🔗 Live Demo](https://kartikeykumar.com/tools/tech-stack-advisor/)** | **[🐛 Report Bug](https://github.com/kartikeykumar09/tech-stack-advisor/issues)** | **[💡 Request Feature](https://github.com/kartikeykumar09/tech-stack-advisor/issues)**
+**[🔗 Live Demo](https://kartikeykumar.in/tools/tech-stack-advisor/)** | **[🐛 Report Bug](https://github.com/kartikeykumar09/tech-stack-advisor/issues)** | **[💡 Request Feature](https://github.com/kartikeykumar09/tech-stack-advisor/issues)**
